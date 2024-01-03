@@ -12,42 +12,6 @@ pip install -r requirements.txt
 # Download weights and video files
 ./setup.sh
 
-# Run the script
-python script.py \
-  --source_weights_path data/traffic_analysis.pt \
-  --source_video_path data/traffic_analysis.mov \
-  --confidence_threshold 0.3 \
-  --iou_threshold 0.5 \
-  --target_video_path data/traffic_analysis_result.mov
-
-# Run the script
-python script.py \
-  --source_weights_path data/traffic_analysis.pt \
-  --source_video_path data/small_test.mp4 \
-  --confidence_threshold 0.3 \
-  --iou_threshold 0.5 \
-  --target_video_path data/small_test_result.mp4
-  
-  python script.py \
-  --source_weights_path data/traffic_analysis.pt \
-  --source_video_path data/longer_test.mp4 \
-  --confidence_threshold 0.3 \
-  --iou_threshold 0.5 \
-  --target_video_path data/longer_test_result.mp4
-  
-    python script.py \
-  --source_weights_path data/traffic_analysis.pt \
-  --source_video_path data/small_new.mp4 \
-  --confidence_threshold 0.3 \
-  --iou_threshold 0.5 \
-  --target_video_path data/small_new_result.mp4
-  
-      python script.py \
-  --source_weights_path data/traffic_analysis.pt \
-  --source_video_path data/frame.mp4 \
-  --confidence_threshold 0.3 \
-  --iou_threshold 0.5 \
-  --target_video_path data/frame_result.mp4
   
   python script.py \
   --source_weights_path data/traffic_analysis.pt \
